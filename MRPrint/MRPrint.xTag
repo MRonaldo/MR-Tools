@@ -1,0 +1,61 @@
+<!--
+################################################
+# xDevStudio Project - xdev@kssoftware.com.br  #
+# Created @ 04/06/2013 15:11:52                #
+#                                              #
+### Standard xDev TagList - Layout v1.5 ########
+-->
+<taglist>
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Finish" args="<lOpen> " scope="PUBLIC" type="ptMethod" line="892">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Set_Font_Color" args="<r>, <g>, <b> " scope="PUBLIC" type="ptMethod" line="875">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Draw_Zebra" args="<.><.><.> " scope="PUBLIC" type="ptMethod" line="854">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Draw_Image" args="<nLeft>, <nTop>, <nWidth>, <nHeight>, <cFImage> " scope="PUBLIC" type="ptMethod" line="834">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Draw_Line" args="<x>, <y>, <w>, <h>, <nPenSize> " scope="PUBLIC" type="ptMethod" line="817">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Draw_Box" args="<x>, <y>, <w>, <h>, <nPenSize>, <aColor>, <nType> " scope="PUBLIC" type="ptMethod" line="776">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Draw_Text_Formated" args="<nLeft>, <nTop>, <nRight>, <nBottom>, <cTxt>, <oFont>, <nSize>, <nAlign>, <nColor> " scope="PUBLIC" type="ptMethod" line="745">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Draw_Text_Rotated" args="<nLeft>, <nTop>, <cTxt>, <oFont>, <nSize>, <nColor>, <nAngle> " scope="PUBLIC" type="ptMethod" line="717">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Draw_Text" args="<nLeft>, <nTop>, <cTxt>, <oFont>, <nSize>, <nColor> " scope="PUBLIC" type="ptMethod" line="691">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="TxtToPDF" args="<cFile>, <nFont> " scope="PUBLIC" type="ptMethod" line="627">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="PrnToPdf" args="<cFile>, <nFont> " scope="PUBLIC" type="ptMethod" line="482">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="DbfToPdf" args="<cAlias> " scope="PUBLIC" type="ptMethod" line="361">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="ArrayToPdf" args="<aPrint>, <nFont> " scope="PUBLIC" type="ptMethod" line="177">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="AddPage" args="<lPortrait> " scope="PUBLIC" type="ptMethod" line="155">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="New" args="<cFilePdf> " scope="PUBLIC" type="ptMethod" line="123">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Line_Max_H_Txt" args=" " scope="STATIC" type="ptConstant" line="42">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Line_Max_H_Prn" args=" " scope="STATIC" type="ptConstant" line="41">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Line_Max_H_Dbf" args=" " scope="STATIC" type="ptConstant" line="40">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Line_Max_H_arr" args=" " scope="STATIC" type="ptConstant" line="39">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Prn_Len_Arr___" args=" " scope="STATIC" type="ptConstant" line="37">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Prn_Eject_____" args=" " scope="STATIC" type="ptConstant" line="36">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Prn_Lines_Max_" args=" " scope="STATIC" type="ptConstant" line="35">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Prn_Line_Len__" args=" " scope="STATIC" type="ptConstant" line="34">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Prn_Line______" args=" " scope="STATIC" type="ptConstant" line="33">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Prn_Cols_Max__" args=" " scope="STATIC" type="ptConstant" line="32">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Prn_Cols______" args=" " scope="STATIC" type="ptConstant" line="31">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Prn_Page_New__" args=" " scope="STATIC" type="ptConstant" line="30">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Page_Prn_Width" args=" " scope="STATIC" type="ptConstant" line="29">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Page_Pos_SaveX" args=" " scope="STATIC" type="ptConstant" line="28">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Page_Pos_Save_" args=" " scope="STATIC" type="ptConstant" line="27">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Page_Pos_z____" args=" " scope="STATIC" type="ptConstant" line="26">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Page_Pos_v____" args=" " scope="STATIC" type="ptConstant" line="25">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Page_Line_h___" args=" " scope="STATIC" type="ptConstant" line="24">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Page_Left_____" args=" " scope="STATIC" type="ptConstant" line="23">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Dbf_Page_New__" args=" " scope="STATIC" type="ptConstant" line="21">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Dbf_Line_Txt__" args=" " scope="STATIC" type="ptConstant" line="20">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Dbf_Field_v___" args=" " scope="STATIC" type="ptConstant" line="19">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Dbf_Field_____" args=" " scope="STATIC" type="ptConstant" line="18">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Dbf_Header____" args=" " scope="STATIC" type="ptConstant" line="17">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Dbf_nFields___" args=" " scope="STATIC" type="ptConstant" line="16">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Font_Code_Page" args=" " scope="STATIC" type="ptConstant" line="14">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Font_Var_bi___" args=" " scope="STATIC" type="ptConstant" line="12">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Font_Var_i____" args=" " scope="STATIC" type="ptConstant" line="11">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Font_Var_b____" args=" " scope="STATIC" type="ptConstant" line="10">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Font_Var______" args=" " scope="STATIC" type="ptConstant" line="9">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Font_Fixa_bi__" args=" " scope="STATIC" type="ptConstant" line="8">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Font_Fixa_i___" args=" " scope="STATIC" type="ptConstant" line="7">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Font_Fixa_b___" args=" " scope="STATIC" type="ptConstant" line="6">
+   <tag filename="C:\xDev\Projects\MRPrint\MRPrint.prg" name="Font_Fixa_____" args=" " scope="STATIC" type="ptConstant" line="5">
+   <tag filename="C:\xDev\Projects\MRPrint\Demo.prg" name="F_Set_Desktop" args=" " scope="PUBLIC" type="ptProcedure" line="217">
+   <tag filename="C:\xDev\Projects\MRPrint\Demo.prg" name="F_User_Defined" args="<oMRPrint> " scope="PUBLIC" type="ptFunction" line="99">
+   <tag filename="C:\xDev\Projects\MRPrint\Demo.prg" name="Main" args=" " scope="PUBLIC" type="ptProcedure" line="3">
+</taglist>

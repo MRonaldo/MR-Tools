@@ -1,0 +1,43 @@
+<!--
+################################################
+# xDevStudio Project - xdev@kssoftware.com.br  #
+# Created @ 11/10/2012 04:00:12                #
+#                                              #
+### Standard xDev Config - Layout v1.5 #########
+-->
+<project>
+   <option compiler="188011">
+   <option outputname="MRBoleto">
+   <option targettype="EXE">
+   <option outputpath="">
+   <option root="($)">
+   <option runpath="">
+   <option runparams="">
+   <option pathch="">
+   <option pathlib="">
+   <option pathobj="">
+   <option pathtooutput="">
+   <option defines="">
+   <option webframework="">
+   <option webrootdir="">
+   <option documentroot="">
+   <option custombrowser="">
+   <option makeincfile="Não">
+   <option taskprepare="">
+   <option taskfinalize="">
+   <option taskgroupprepare="">
+   <option taskgroupfinalize="">
+
+   <compilerparam name="GenericScript.xCompiler">
+      <option presetsname="188011">
+      <option fcmd="C:\xDev\Projects\MRBoleto\Build_Msvc.bat">
+      <option fstyle="Sim">
+   </compilerparam>
+
+   <unit filename="MRBoleto.prg" compile="Sim">
+   <unit filename="Demo.prg" compile="Sim">
+   <unit filename="Build.Bat" compile="Sim">
+   <unit filename="Build_Msvc.bat" compile="Sim">
+   <unit filename="Licence.txt" compile="Sim">
+   <unit filename="demo.hbp" compile="Sim">
+</project>

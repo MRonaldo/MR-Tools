@@ -1,0 +1,43 @@
+<!--
+################################################
+# xDevStudio Project - xdev@kssoftware.com.br  #
+# Created @ 13/10/2012 04:21:00                #
+#                                              #
+### Standard xDev Config - Layout v1.5 #########
+-->
+<project>
+   <option compiler="188011">
+   <option outputname="MRPrint">
+   <option targettype="EXE">
+   <option outputpath="">
+   <option root="($)">
+   <option runpath="">
+   <option runparams="">
+   <option pathch="">
+   <option pathlib="">
+   <option pathobj="">
+   <option pathtooutput="">
+   <option defines="">
+   <option webframework="">
+   <option webrootdir="">
+   <option documentroot="">
+   <option custombrowser="">
+   <option makeincfile="Não">
+   <option taskprepare="">
+   <option taskfinalize="">
+   <option taskgroupprepare="">
+   <option taskgroupfinalize="">
+
+   <compilerparam name="GenericScript.xCompiler">
+      <option presetsname="188011">
+      <option fcmd="C:\xDev\Projects\MRPrint\Build_Msvc.bat">
+      <option fstyle="Sim">
+   </compilerparam>
+
+   <unit filename="MRPrint.prg" compile="Sim">
+   <unit filename="Demo.prg" compile="Sim">
+   <unit filename="Build.Bat" compile="Sim">
+   <unit filename="Build_Msvc.bat" compile="Sim">
+   <unit filename="demo.hbp" compile="Sim">
+   <unit filename="readme.txt" compile="Sim">
+</project>

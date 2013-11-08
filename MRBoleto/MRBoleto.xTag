@@ -1,0 +1,47 @@
+<!--
+################################################
+# xDevStudio Project - xdev@kssoftware.com.br  #
+# Created @ 06/12/2012 13:10:17                #
+#                                              #
+### Standard xDev TagList - Layout v1.5 ########
+-->
+<taglist>
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Interleaved_2of5" args=" " scope="PUBLIC" type="ptMethod" line="1806">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="DC_ModEsp" args="<c_Banco>, <mNMOG> " scope="PUBLIC" type="ptMethod" line="1776">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="DC_Mod11" args="<c_Banco>, <mBSDG>, <mFGCB>, <mNMOG>, <lMult10> " scope="PUBLIC" type="ptMethod" line="1723">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="DC_Mod10" args="<c_Banco>, <mNMOG> " scope="PUBLIC" type="ptMethod" line="1696">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Finish" args="<lOpen> " scope="PUBLIC" type="ptMethod" line="1665">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Draw_Zebra" args="<.><.><.> " scope="PUBLIC" type="ptMethod" line="1646">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Draw_Image" args="<nLeft>, <nTop>, <nWidth>, <nHeight> " scope="PUBLIC" type="ptMethod" line="1622">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Draw_Line" args="<x>, <y>, <w>, <z>, <nPenSize> " scope="PUBLIC" type="ptMethod" line="1603">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Draw_Text" args="<nLeft>, <nTop>, <cTxt>, <oFont>, <nSize> " scope="PUBLIC" type="ptMethod" line="1585">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Banco_748" args=" " scope="PUBLIC" type="ptMethod" line="1546">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Banco_422" args=" " scope="PUBLIC" type="ptMethod" line="1512">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Banco_399" args=" " scope="PUBLIC" type="ptMethod" line="1468">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Banco_341" args=" " scope="PUBLIC" type="ptMethod" line="1440">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Banco_237" args=" " scope="PUBLIC" type="ptMethod" line="1408">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Banco_104" args=" " scope="PUBLIC" type="ptMethod" line="1374">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Banco_033" args=" " scope="PUBLIC" type="ptMethod" line="1341">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Banco_001" args=" " scope="PUBLIC" type="ptMethod" line="1291">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Execute" args=" " scope="PUBLIC" type="ptMethod" line="1208">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Update" args=" " scope="PUBLIC" type="ptMethod" line="1132">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="AddPage" args=" " scope="PUBLIC" type="ptMethod" line="221">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="New" args="<cFilePdf> " scope="PUBLIC" type="ptMethod" line="195">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Page_Pos_z____" args=" " scope="STATIC" type="ptConstant" line="21">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Page_Pos_v____" args=" " scope="STATIC" type="ptConstant" line="20">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Page_Pos_S01__" args=" " scope="STATIC" type="ptConstant" line="19">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Page_Pos_S00__" args=" " scope="STATIC" type="ptConstant" line="18">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Page_Line_Size" args=" " scope="STATIC" type="ptConstant" line="17">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Page_Left_____" args=" " scope="STATIC" type="ptConstant" line="16">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Font_Large____" args=" " scope="STATIC" type="ptConstant" line="14">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Font_Normal___" args=" " scope="STATIC" type="ptConstant" line="13">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Font_Small____" args=" " scope="STATIC" type="ptConstant" line="12">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Font_Code_Page" args=" " scope="STATIC" type="ptConstant" line="11">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Font_Variavel_" args=" " scope="STATIC" type="ptConstant" line="10">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Font_Fixa_____" args=" " scope="STATIC" type="ptConstant" line="9">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Bol_Start_Date" args=" " scope="STATIC" type="ptConstant" line="7">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Pdf_Demonstr__" args=" " scope="STATIC" type="ptConstant" line="5">
+   <tag filename="C:\xDev\Projects\MRBoleto\MRBoleto.prg" name="Pdf_Instrucoes" args=" " scope="STATIC" type="ptConstant" line="4">
+   <tag filename="C:\xDev\Projects\MRBoleto\Demo.prg" name="Main" args=" " scope="PUBLIC" type="ptProcedure" line="3">
+   <tag filename="C:\xDev\Projects\MRBoleto\Demo.prg" name="F_Set_Desktop" args=" " scope="PUBLIC" type="ptProcedure" line="290">
+</taglist>
