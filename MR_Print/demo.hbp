@@ -1,0 +1,74 @@
+#
+# Flags do compilador
+#
+-w3
+-es2
+-kmo
+
+#
+# Pausa em caso de avisos na compilação
+#
+-pause
+
+#
+# Executar ao finalizar a compilação
+#
+# -run
+
+#
+# Arquivos temporarios
+#
+-workdir=C:\Temp
+
+#
+# Metodo de Compressão UPX
+#
+# -compr=def
+
+#
+# Diretivas para compilação incremental
+# -inc
+-rebuild
+
+#
+# Console/Gui
+# -std
+-gui
+
+#
+# gt class
+# -gtwvg
+-gtwvg
+
+#
+# contrib
+# .hbc Files
+#
+hbct.hbc
+hbmisc.hbc
+hbhpdf.hbc
+hbzebra.hbc
+hbwin.hbc
+
+#
+# exe: nome do executavel
+#
+-oMRPrint.exe
+
+#
+# prg principal
+#
+Demo.prg
+
+#
+# prg(s) adicional(is)
+#
+MRPrint.prg
+
+#
+# .C Source Files
+#
+
+#
+# .rc Resource Files
+#

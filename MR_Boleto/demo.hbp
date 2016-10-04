@@ -1,0 +1,17 @@
+-w3
+
+-es2
+
+-gtwin
+
+-gui
+
+gtwvg.hbc
+hbhpdf.hbc
+hbzebra.hbc
+hbwin.hbc
+
+-oMRboleto.exe
+
+Demo.prg
+MRboleto.prg
