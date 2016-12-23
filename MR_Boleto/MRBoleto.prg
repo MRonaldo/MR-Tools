@@ -174,14 +174,8 @@ Create Class MR_Boleto
    // *-------------------------------------------------------------------------*
    // Metodos da Classe
    // *-------------------------------------------------------------------------*
-   Method New( cFilePdf ) Constructor
+
    Method AddPage()
-   Method Draw_Text( nLeft, nTop, cTxt, oFont, nSize )
-   Method Draw_Line( x, y, w, z, nPenSize )
-   Method Draw_Image( nLeft, nTop, nWidth, nHeight )
-   Method Draw_Zebra( ... )
-   Method Update()
-   Method Execute()
    Method Banco_001()
    Method Banco_033()
    Method Banco_085()
@@ -191,12 +185,23 @@ Create Class MR_Boleto
    Method Banco_399()
    Method Banco_422()
    Method Banco_748()
-   Method Finish( lOpen )
    Method DC_Mod10( c_Banco, mNMOG )
    Method DC_Mod11( c_Banco, mBSDG, mFGCB, mNMOG, lMult10 )
    Method DC_ModEsp( c_Banco, mNMOG )
+   Method Draw_Image( nLeft, nTop, nWidth, nHeight )
+   Method Draw_Line( x, y, w, z, nPenSize )
+   Method Draw_Text( nLeft, nTop, cTxt, oFont, nSize )
+#ifdef __XHARBOUR__
+   Method Draw_Zebra( x, y, w, z )
+#else
+   Method Draw_Zebra( ... )
+#endif
+   Method Execute()
+   Method Finish( lOpen )
    Method Interleaved_2of5()
+   Method New( cFilePdf ) Constructor
    Method Only_Numbers( cStr )
+   Method Update()
 
    // Base code from: Jose Quintas
    METHOD Cnab_Add()
@@ -1797,8 +1802,12 @@ METHOD Draw_Image( nLeft, nTop, nWidth, nHeight ) Class MR_Boleto
 //
 // METHOD MR_Boleto:Draw_Zebra( ... )
 //
-// *-------------------------------------------------------------------------*
+// *------------------------------------------------------------------------*
+#ifdef __XHARBOUR__
+METHOD Draw_Zebra( x, y, w, z ) Class MR_Boleto
+#else
 METHOD Draw_Zebra( ... ) Class MR_Boleto
+#endif
 
    IF hb_zebra_GetError( ::hZebra_______ ) != 0
       RETURN HB_ZEBRA_ERROR_INVALIDZEBRA

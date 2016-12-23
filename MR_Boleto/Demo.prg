@@ -13,15 +13,15 @@ Procedure Main
       // BANCO DO BRASIL
       // *---------------------------------------------------------------------*
       oBoleto:Banco________ := '001'
-      oBoleto:Banco_Agencia := '3482'
+      oBoleto:Banco_Agencia := '2485'
       oBoleto:Banco_Ag_Dv__ := '7'
       oBoleto:Banco_Ag_Un_A := ''
-      oBoleto:Conta________ := '29022'
+      oBoleto:Conta________ := '21022'
       oBoleto:Conta_DV_____ := 'X'
       oBoleto:Conta_OP_____ := ''
       oBoleto:Carteira_____ := '17'
       oBoleto:Carteira_Tipo := ''
-      oBoleto:NossoNumero__ := '28694640006980101'
+      oBoleto:NossoNumero__ := '21694140006980101'
       oBoleto:Doc_Origem___ := 'NFe'
       oBoleto:Prefixo______ := '2869464'
       oBoleto:Prefixo_DV___ := '6'
@@ -38,9 +38,9 @@ Procedure Main
       oBoleto:Local_Pagamen := { "Pague em qualquer banco até o limite da data de vencimento" }
       oBoleto:Instrucoes___ := { "Desconto de 5% se pago até o dia " + Tran( Date()+10, '@E' ), "Não receber após 30 dias da data de vencimento" }
       oBoleto:Demonstrativo := { "Vetor: pode a exemplo ser utilizado para se demonstrar o rateio de despesas para condominios", '', 'Utiliza Fonte com espaçamento de tamanho fixo ( Courier ), o que permite geração de demostrativos financeiros flexiveis.', '', 'O limite é sua criatividade :)', '', "Exiba detalhes importantes para o usuario", '', 'Valores em cobrança', '', 'Contratos', '', 'Informações úteis', '', 'Etc...' }
-      oBoleto:Beneficiario_ := { "00912141000180", "HIPERTELAS INDUSTRIA E COMERCIO DE TELAS", "Beneficiario: Endereço ( Opcional )" }
-      oBoleto:Pagador______ := { "28242092168", "PAULO LUIZ SOARES", "AV. CASTELO BRANCO, NR 2033", "SETOR COIMBRA", "GOIANIA", "GO", "74530010" }
-      oBoleto:Avalista_____ := { "28242092168", "PAULO LUIZ SOARES", "Avalista: Endereço ( Opcional )" }
+      oBoleto:Beneficiario_ := { "02812141000182", "WXYZ INDUSTRIA E COMERCIO DE TELAS", "Beneficiario: Endereço ( Opcional )" }
+      oBoleto:Pagador______ := { "88242095168", "JOSE DOS ANZOIS", "AV. CASTELO AMARELO, NR 2033", "SETOR COIMBRA", "GOIANIA", "GO", "74430010" }
+      oBoleto:Avalista_____ := { "88242095168", "JOSE DOS ANZOIS", "Avalista: Endereço ( Opcional )" }
 
       oBoleto:AddPage()
 
